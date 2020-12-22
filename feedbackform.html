@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form method="POST" action="https://bluecrest.edu.gh">
+
+        <p>
+            <label>Name</label>
+            <input type="text" name="name" required>
+        </p>
+
+        <p>
+            <label>Email</label>
+            <input type="email" name="email" required>
+        </p>
+
+        <p>
+            <strong>What do you like about the school?</strong>
+            <p>
+                <label>Campus
+                     <input type="checkbox" name="campus">
+                </label>
+
+                <label>Students
+                     <input type="checkbox" name="students">
+                </label>
+
+                <label>Location
+                    <input type="checkbox" name="location">
+               </label>
+
+               <label>Atmosphere
+                    <input type="checkbox" name="atmosphere">
+               </label>
+
+               <label>Dorm rooms
+                    <input type="checkbox" name="dorm rooms">
+               </label>
+
+               <label>Sports
+                    <input type="checkbox" name="sports">
+               </label>
+            </p>
+            
+        </p>
+        <p>
+           <strong> How did you become interested in the college?</strong>
+            <p>
+                <label>Fiends
+                    <input type="radio" name="friends">
+                </label>
+
+                <label>Television
+                    <input type="radio" name="television">
+                </label>
+
+                <label>Internet
+                    <input type="radio" name="internet">
+                </label>
+
+                <label>Other
+                    <input type="radio" name="other">
+                </label>
+            </p>
+        </p>
+        <!-- Textarea - comments section -->
+        <p>
+            <label>Comments: <br>
+                <textarea cols="30" rows="5"></textarea>
+
+            </label>
+        </p>
+        <!-- Submit and Reset buttons-->
+        <p>
+            <!-- Submit button -->
+            <input type="Submit" value="submit">
+
+            <!-- Reset button -->
+            <input type="Reset" value="reset">
+        </p>
+    </form>
+</body>
+</html>
